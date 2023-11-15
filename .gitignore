@@ -2,6 +2,11 @@ venv/
 db.sqlite3
 .env
 
+astronomy_calendar/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
 __pycache__/
 *.pyc
 *.pyo
