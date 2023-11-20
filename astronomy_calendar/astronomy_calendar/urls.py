@@ -5,4 +5,6 @@ from .views import hello_world
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', hello_world, name='hello_world'),
+    path('', include('app.urls')),
+    path('accounts/', include('user_management.urls')),
 ]
