@@ -1,0 +1,44 @@
+:root {
+    /* kolory */
+    --primary-100: #000000;
+    --primary-200: #27005D;
+    --primary-300: #9400FF;
+    --primary-400: #AED2FF;
+    --primary-500: #E4F1FF;
+
+    /* czcionki */
+    /* --headerfont: 'Oswald', sans-serif;
+    --bodyfont: 'Rubik', sans-serif;
+    --specialfont: 'Noto Serif Balinese', serif; */
+}
+
+body {
+    background-color: var(--primary-200);
+}
+
+.header {
+    width: 98%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: var(--primary-100); /* Optional: Set a background color */
+    padding: 20px; /* Optional: Add some padding for better spacing */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Optional: Add some styles to the content inside the container */
+.header h1 {
+    color: var(--primary-500);
+}
+
+.header p {
+    color: var(--primary-500);
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px
+  /* Display list items horizontally */
+}
